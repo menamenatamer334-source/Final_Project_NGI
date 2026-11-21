@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<div class="header">
+    <h2>Explore<span style="color: #E9A23B;">.</span></h2>
+<button onclick="location.href='#dest'">Explore Now</button>
+</div>
+
+<div class="nav" id="nav">
+    <a href="#content" >Home</a>
+    <a href="#dest" >Destinations</a>
+    <a href="#web" >About Us</a>
+</div>
+
+
+
+<div class="content" id="content" style="line-height: 0.8;">
+
+    <h5 style="color: #E9A23B; letter-spacing: 3px; ">DISCOVER THE WORLD</h5>
+    <h1 style="font-size:40px">Explore The </h1>
+    <h1 style="color: #E9A23B; font-size:40px">Beautiful World</h1>
+    <p>Discover amazing places, explore different cultures and experience 
+        <br><br>unforgettable journeys.</p>
+<button onclick="location.href='#dest'">Start Exploring</button>    </div>
+
+
+    <div class="dest" id="dest">
+
+        <p style="color: #E9A23B; letter-spacing: 3px; font-size: 12px;"><b>YOUR NEXT ADVENTURE</b></p>
+        <h1>Popular Destinations</h1>
+        <p style="color:#777777">Explore some of the most beautiful cities in the world.</p>
+
+
+        </div>
+
+       
+
+        <div class="card">
+            <div class="info">
+                <p class="orange" id ="counter">01 / 04</p>
+                <p class="gray" id ="country">France</p>
+                <h1 id ="city">Paris</h1>
+                <p id ="desc"></p>
+
+
+                <div class="details">
+                    <div><b>Continent</b><p id="continent"></p></div>
+                                <div><b>Famous Food</b><p id="food"></p></div>
+                                  <div><b>Famous Place</b><p id="place"></p></div>
+            <div><b>Language</b><p id="language"></p></div>
+        </div>
+    <button onclick="showMessage()">Explore More</button>
+        </div>
+
+        <div class="image-box">
+        <img id="image" src="paris.jpg" alt="Paris">
+        <div class="badge">
+            <small>DESTINATION</small>
+            <h2 id="badge">01</h2>
+        </div>
+    </div>
+
+</div>
+<div class="controls">
+    <button onclick="prev()">← Previous</button>
+    <span class="dot" onclick="showCity(0)"></span>
+    <span class="dot" onclick="showCity(1)"></span>
+    <span class="dot" onclick="showCity(2)"></span>
+    <span class="dot" onclick="showCity(3)"></span>
+    <button onclick="next()">Next →</button>
+</div>
+
+
+
+<div class="upfooter" id="web">
+
+    <h1>Travel. Discover. Enjoy.</h1>
+    <p>Every destination has a story. Let's discover it together.</p>
+    </div>
+    <footer class="footer">
+        <p>© 2026 Created By Menna Tamer , All Rights Reserved.</p>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="script.js"></script>
+
+</body>
+</html>
